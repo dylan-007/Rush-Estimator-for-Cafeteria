@@ -1,0 +1,26 @@
+.cardContainer {
+    border: 1px solid rgb(226, 235, 105);
+    margin-top: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;  
+    height: 380px;  
+}
+
+.aboutImage{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    transition: all .2s ease-in-out; 
+    object-fit: cover;
+}
+
+.aboutImage:hover{
+    transform: translate(0px, -10px);
+}
+.cardContainer:hover{
+    transform: scale(1.05); 
+}
+
+ 
